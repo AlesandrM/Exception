@@ -8,7 +8,7 @@ class CartManager {
 
     public void removeById(int id) {
         repository.removeById(id);
-        System.out.println("manager done"); // for demo only
+        System.out.println("manager done");
     }
 
     public CartManager(Repository repository) {
